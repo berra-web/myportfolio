@@ -1,6 +1,8 @@
 .contact{
     text-align: center;
     background: #1f2235;
+    width: 100%;
+    padding: 10px;
   }
   .contact-form{
     background: #1f2235;
@@ -62,17 +64,17 @@
 
   @media (min-width: 200px) and (max-width: 729px) {
     iframe{
-      width: 400px;
+      width: 300px;
       margin: 0 0 20px 30px;
       height: 400px;
     }
     .form{
-      width: 400px;
-      margin-left: 30px;
+      width: 300px;
+      margin: 30px 0 20px 30px;
     }
     .contact-cart{
-      width: 400px;
-      margin-left: 30px;
+      width: 300px;
+      margin: 30px 0 20px 30px;
     }
   }
   
