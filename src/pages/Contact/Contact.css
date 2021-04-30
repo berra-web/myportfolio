@@ -60,7 +60,7 @@
     }
 
 
-  @media (min-width: 500px) and (max-width: 729px) {
+  @media (min-width: 200px) and (max-width: 729px) {
     iframe{
       width: 400px;
       margin: 0 0 20px 30px;
