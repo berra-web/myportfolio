@@ -72,7 +72,9 @@ export default function Barbarian() {
         <div className="wrapper">
             {heroes.length &&
             <>
+            <Row>
             <BarbarianCard hero={heroes[courser]}/>
+            </Row>
             <Row>
             <Col><Arrow direction='prev' handleClick={handlePrev}/></Col>
             <Col><Arrow direction='next'handleClick={handleNext}/></Col>
