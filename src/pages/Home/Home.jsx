@@ -2,7 +2,7 @@ import Banner from './Banner';
 import './Home.css';
 import Services from './MyService';
 import Pic from '../../assets/carousal/px.jpg';
-import {Row, Button} from 'react-bootstrap';
+import {Container, Row, Button} from 'react-bootstrap';
 import Footer from '../../components/Footer/Footer';
 import FooterBottom from '../../components/Footer/FooterBottom';
 import {GoCreditCard, GiGalleon, MdWeb, FaNetworkWired} from "react-icons/all";
@@ -12,7 +12,7 @@ import {Nav} from 'react-bootstrap';
 
 export default function Home() {
     return (
-        <div className='homeContainer'>
+        <Container className='homeContainer' fluid>
             <Banner />
             <Services />
             <Row className='home-row'>
@@ -30,6 +30,6 @@ export default function Home() {
             </Row> 
             <Footer/>
             <FooterBottom/>
-        </div>  
+        </Container>  
     )
 }
