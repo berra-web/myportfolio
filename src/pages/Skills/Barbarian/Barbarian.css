@@ -4,6 +4,7 @@
 .slide-container {
     height: 100%;
     text-align: center;
+    margin: 50px 15px 0 20px;
 }
 
 .wrapper {
@@ -45,6 +46,7 @@
     color: #fff;
     height: 450px;
     display: inline-block;
+    margin: 50px 15px 20px 50px;
     border-radius: 19px;
     position: relative;
     text-align: center;
@@ -204,7 +206,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 80px 0 40px 130px;
+    margin: 80px 0 40px 160px;
     font-size: 60px;
 }
 
@@ -222,9 +224,8 @@ p {
     .clash-card__level {
         display: none;
     }
-    .clash-card {
-        padding-top: 50px;
-        height: 300px;
+    .barbarianDiv{
+        display: none;
     }
   }
   
@@ -235,7 +236,7 @@ p {
     .clash-card__level {
         width: 130px;
         height: 130px;
-        margin: 80px 0 40px 200px;
+        margin: 80px 0 40px 240px;
     }
     .clash-card {
         height: 700px;
