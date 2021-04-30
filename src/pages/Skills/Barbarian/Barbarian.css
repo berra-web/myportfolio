@@ -44,8 +44,10 @@
 .clash-card {
     background: #393c4e;
     color: #fff;
+    width: 100%;
     height: 450px;
     display: inline-block;
+    margin: 50px 15px 20px 50px;
     border-radius: 19px;
     position: relative;
     text-align: center;
@@ -201,6 +203,7 @@ p {
 .clash-card__level {
     width: 200px;
     height: 200px;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
     display: flex;
     align-items: center;

@@ -71,13 +71,13 @@ export default function Barbarian() {
     <div className="slide-container">
         <div className="wrapper">
             {heroes.length &&
-            <div className='myDiv'>
+            <>
             <BarbarianCard hero={heroes[courser]}/>
             <Row>
             <Col><Arrow direction='prev' handleClick={handlePrev}/></Col>
             <Col><Arrow direction='next'handleClick={handleNext}/></Col>
             </Row> 
-            </div>
+            </>
             }
         </div>
     </div> 
