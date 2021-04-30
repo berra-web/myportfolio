@@ -1,0 +1,21 @@
+.aboutContainer{
+    background: #23263a;
+    text-align: center;  
+}
+.about-row{
+text-align: center;
+width: 100%;
+background: #23263a;
+color: #fff;
+text-align: center;
+padding-left: 20px;
+}
+
+.commonIcons {
+font-size: 40px;
+color: #ff4a57;
+margin-bottom: 15px;
+}
+
+
+
