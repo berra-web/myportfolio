@@ -5,6 +5,7 @@
     height: 100%;
     width: 100%;
     text-align: center;
+    padding: 20px;
 }
 
 .wrapper {
@@ -226,7 +227,7 @@ p {
     .clash-card__level {
         display: none;
     }
-    .barbarianDiv{
+    .slide-container{
         display: none;
     }
   }
