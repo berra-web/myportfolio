@@ -42,9 +42,9 @@ export default function Skills() {
                     <h1 className="mainHeader">My Stars</h1>
                     <div className="commonBorder"></div>
                 </Col>
-                    <div className='barbarianDiv'>
+                    <Col className='barbarianDiv'>
                         <Barbarian />
-                    </div>
+                    </Col>
               <p><Nav.Link as={Link} to="/contact"><Button variant="info" className='service-button'>Get Starded</Button></Nav.Link></p>
             </div>
         </Container>
