@@ -40,13 +40,11 @@ margin: 90px 0 50px 20px;
 .card__content {
 color: #fff;
 margin: 20px 0 30px 20px;
-border-radius: 0 30px 0 30px;
 }
 .custom-img {
 margin: 30px 0 10px 10px;
 width: 100vh;
 height: 400px;
-border-radius: 0 30px 0 30px;
 object-fit: cover;
 }
 
@@ -185,7 +183,6 @@ border-radius: 5px;
   .custom-img {
     width: 56vh;
     height: 400px;
-    border-radius: 50px;
     object-fit: cover;
     margin-top: 60px;
     }
