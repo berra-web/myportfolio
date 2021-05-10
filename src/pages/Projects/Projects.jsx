@@ -31,7 +31,7 @@ export default function Projects() {
                    MADE FOR CREATIVES
                    WITH ALL THE TOOLS A PROFESSIONAL NEEDS
                    </p>
-                  <div className="commonBorder"></div>
+                  <div className="Border"></div>
             <p><Nav.Link as={Link} to="/contact"><Button variant="info" className='service-button'>Get Starded</Button></Nav.Link></p>
         </Container>
     )

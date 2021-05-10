@@ -188,7 +188,7 @@ border-radius: 5px;
     width: 56vh;
     height: 400px;
     object-fit: cover;
-    margin: 50px 30px 10px 0;
+    margin: 50px 45px 10px 0;
     }
     .header__content,
     .card__content{
@@ -196,7 +196,7 @@ border-radius: 5px;
     }
     .header__content{
       text-align: center;
-      margin: 50px 0 10px 40px;
+      margin: 50px 0 10px 35px;
     }
     .header__ul li{
      display: none;
