@@ -58,11 +58,14 @@
     background: #ff4a57;
     height: 1px;
     width: 65%;
-    margin: 20px auto 70px auto;
+    margin: 20px auto 50px auto;
     }
 
 
   @media (min-width: 200px) and (max-width: 729px) {
+    .commonBorder {
+      margin: 20px 0 40px 80px;
+      }
     iframe{
       width: 300px;
       margin: 0 0 20px 30px;

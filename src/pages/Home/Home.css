@@ -70,7 +70,7 @@ flex-wrap: wrap;
 height: 260px;
 background: #393c4e;
 color: #fff;
-margin: 20px 10px 50px 25px;
+margin: 20px 0 50px 35px;
 transition: all 0.5s linear;
 padding-top: 5px;
 }
@@ -116,7 +116,7 @@ margin: 80px 0 20px 0;
   background: #ff4a57;
   height: 1px;
   width: 65%;
-  margin: 20px auto 70px auto;
+  margin: 20px auto 50px auto;
   }
 
 /* Resume */
@@ -180,15 +180,23 @@ border-radius: 5px;
 
 
 @media (min-width: 200px) and (max-width: 729px) {
+  .commonBorder {
+    margin: 20px 0 40px 80px;
+    }
+  
   .custom-img {
     width: 56vh;
     height: 400px;
     object-fit: cover;
-    margin-top: 60px;
+    margin: 50px 30px 10px 0;
     }
     .header__content,
     .card__content{
       text-align: center;
+    }
+    .header__content{
+      text-align: center;
+      margin: 50px 0 10px 40px;
     }
     .header__ul li{
      display: none;

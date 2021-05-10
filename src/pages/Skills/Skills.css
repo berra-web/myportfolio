@@ -71,7 +71,10 @@
     height: 60px;
 }
 
-
+.mainHeader,
+.mainContent{
+    margin-left: 40px;
+}
 
 
 .service-row{
