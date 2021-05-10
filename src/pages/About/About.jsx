@@ -20,7 +20,7 @@ export default function About() {
                 <Row>
                     <Col className='about-col'>
                       <h1 className="about-h1">About Me</h1>
-                      <div className="commonBorder"></div>
+                      <div className="Border"></div>
                       <p className="about-p">
                       My name is <strong>Behrad</strong> I am a <strong>full stack developer</strong> with long time experience in this field​, who works with both the front and back ends of a website or application—meaning i can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects.
                       </p>
