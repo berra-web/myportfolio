@@ -28,7 +28,7 @@ export default function Header() {
         style={{ transition: '1s ease',backgroundColor: navBackground ? '#626579' : '#1f2235'}}
         className="nav-theme justify-content-between">
           <div>
-            <Navbar.Brand as={Link} to="/" className="logo"><FaReacteurope className="headerIcon-logo" />Web Wonders</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" className="logo"><FaReacteurope className="headerIcon-logo" />Portfolio</Navbar.Brand>
           </div>
           <div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle'/>
